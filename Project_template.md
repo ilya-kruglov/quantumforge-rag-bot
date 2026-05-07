@@ -90,3 +90,84 @@
 - **Векторная БД:** FAISS (in-memory с сохранением на диск)
 - **Фреймворк:** LangChain
 - **Инфраструктура:** Docker Compose (бот + FAISS), GPU-сервер
+
+---
+
+# Задание 2. Подготовка базы знаний
+
+## 1. Выбор предметной области и источника
+В качестве основы выбрана вселенная **Star Wars** (ресурс `starwars.fandom.com`). Это густонаселённый мир с уникальными сущностями (персонажи, планеты, технологии, события), который заведомо знаком публичным LLM.  
+Чтобы модель не могла отвечать по памяти, все ключевые термины заменены на вымышленные. Создана закрытая «корпоративная» база знаний, аналогичная внутренней документации QuantumForge.
+
+## 2. Сбор и очистка текстов
+С помощью Python-скрипта `fetch_and_clean.py` скачаны 35 HTML-страниц с `fandom.com` по следующим категориям:
+- **Персонажи (10):** Darth Vader, Luke Skywalker, Leia Organa, Han Solo, Yoda, Obi-Wan Kenobi, Palpatine, Chewbacca, R2-D2, C-3PO.
+- **Планеты (9):** Tatooine, Hoth, Endor, Dagobah, Coruscant, Naboo, Alderaan, Mustafar, Kamino.
+- **Технологии (6):** Death Star, Lightsaber, Millennium Falcon, Hyperdrive, AT-AT, X-wing.
+- **События/фракции (10):** Clone Wars, Galactic Empire, Rebel Alliance, The Force, Jedi Order, Sith, Battle of Yavin, Order 66, etc.
+
+Скрипт извлекал основной текстовый контент из элемента `mw-parser-output`, удалял HTML-теги, навигационные блоки, ссылки на редактирование, оставляя только чистый текст. Каждый документ сохранён как отдельный `.md` файл в папке `raw_docs/`.
+
+## 3. Замена ключевых терминов
+Создан словарь замен `terms_map.json`, содержащий **72 пары** «оригинал → вымышленное». Принципы замены:
+- Все имена персонажей, названия планет, рас, технологий и ключевых понятий заменены на вымышленные, сохраняющие стиль и состав слова.
+- Учтены регистры, границы слов, множественное число.
+- Для генерации новых имён использовались комбинации слогов и элементы из `uuid` для уникальности.
+
+Примеры из `terms_map.json`:
+```json
+{
+  "Star Wars": "Celestial Chronicles",
+  "Darth Vader": "Xarn Velgor",
+  "Luke Skywalker": "Jax Solara",
+  "Leia Organa": "Mira Voss",
+  "Han Solo": "Kael Naro",
+  "Yoda": "Oron",
+  "Death Star": "Void Core",
+  "The Force": "Synth Flux",
+  "Tatooine": "Duneholm",
+  "Millennium Falcon": "Stellar Hawk",
+  "Jedi": "Aethel Wardens",
+  "Sith": "Umbrith",
+  "Lightsaber": "Photon Blade",
+  "Rebel Alliance": "Free Accord",
+  "Galactic Empire": "Dominion of Iron Will",
+  "Dagobah": "Murkfen",
+  "Coruscant": "Metropax",
+  "Wookiee": "Bralok",
+  "Droid": "Autom",
+  "Hyperspace": "Voidstream"
+}
+```
+
+Скрипт `apply_terms_map.py` проходится по всем `.md` файлам `raw_docs/`, выполняет замену с помощью регулярных выражений и сохраняет результат в `knowledge_base/`. Порядок замены: сначала самые длинные фразы (чтобы избежать частичных замен), затем одиночные слова.
+
+## 4. Проверка и результат
+- Прочитав полученные документы, убедился, что они сохранили внутреннюю логику и читаемость, но стали неузнаваемы как Star Wars.
+- Модель GPT-4, не имея доступа к индексу, на запрос «Кто такой Xarn Velgor?» отвечала, что не знает, подтверждая уникальность базы.
+- Итоговая папка `knowledge_base/` содержит 35 `.md` файл в подкатегориях: `characters`, `planets`, `technology`, `events`. Также корневой файл `terms_map.json`.
+
+## 5. Структура knowledge_base/
+```
+knowledge_base/
+├── characters/
+│ ├── xarn_velgor.md
+│ ├── jax_solara.md
+│ └── ...
+├── planets/
+│ ├── duneholm.md
+│ └── ...
+├── technology/
+│ ├── void_core.md
+│ └── ...
+├── events/
+│ ├── aethel_wardens.md
+│ └── ...
+└── terms_map.json
+```
+
+## 5. Использованные скрипты
+- `fetch_wikipedia.py`, `fetch_wikipedia_v2.py`, `fetch_remaining.py`, `check_raw_docs.py`, `fix_disambiguations.py` – загрузка и очистка страниц.
+- `apply_terms_map.py` – подстановка вымышленных терминов.
+
+Оба скрипта сохранены в корне проекта для повторяемости процесса.
