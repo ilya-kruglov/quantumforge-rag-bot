@@ -95,79 +95,23 @@
 
 # Задание 2. Подготовка базы знаний
 
-## 1. Выбор предметной области и источника
-В качестве основы выбрана вселенная **Star Wars** (ресурс `starwars.fandom.com`). Это густонаселённый мир с уникальными сущностями (персонажи, планеты, технологии, события), который заведомо знаком публичным LLM.  
-Чтобы модель не могла отвечать по памяти, все ключевые термины заменены на вымышленные. Создана закрытая «корпоративная» база знаний, аналогичная внутренней документации QuantumForge.
+## 1. Выбор предметной области
+Взята вселенная Star Wars (starwars.fandom.com, позже англоязычная Wikipedia) — 33 статьи о персонажах, планетах, технологиях и событиях.  
+Чтобы исключить ответы модели по памяти, все ключевые термины заменены на вымышленные.
 
-## 2. Сбор и очистка текстов
-С помощью Python-скрипта `fetch_and_clean.py` скачаны 35 HTML-страниц с `fandom.com` по следующим категориям:
-- **Персонажи (10):** Darth Vader, Luke Skywalker, Leia Organa, Han Solo, Yoda, Obi-Wan Kenobi, Palpatine, Chewbacca, R2-D2, C-3PO.
-- **Планеты (9):** Tatooine, Hoth, Endor, Dagobah, Coruscant, Naboo, Alderaan, Mustafar, Kamino.
-- **Технологии (6):** Death Star, Lightsaber, Millennium Falcon, Hyperdrive, AT-AT, X-wing.
-- **События/фракции (10):** Clone Wars, Galactic Empire, Rebel Alliance, The Force, Jedi Order, Sith, Battle of Yavin, Order 66, etc.
+## 2. Сбор и очистка
+Скрипт `fetch_wikipedia_v2.py` скачал текст 33 статей через Wikipedia API. Каждая страница сохранена в `raw_docs/` как отдельный `.md`-файл.
 
-Скрипт извлекал основной текстовый контент из элемента `mw-parser-output`, удалял HTML-теги, навигационные блоки, ссылки на редактирование, оставляя только чистый текст. Каждый документ сохранён как отдельный `.md` файл в папке `raw_docs/`.
+## 3. Замена терминов
+Создан словарь `terms_map.json` (более 80 пар «оригинал → вымышленное»).  
+Скрипт `apply_terms_map.py` считывает словарь, сортирует ключи по убыванию длины и для каждого файла из `raw_docs/` выполняет подстановку с учётом регистра и границ слов (для коротких имён).  
+Результат — папка `knowledge_base/` с 33 `.md`-файлами. Все имена персонажей, названия планет, технологий, ключевые понятия заменены.
 
-## 3. Замена ключевых терминов
-Создан словарь замен `terms_map.json`, содержащий **72 пары** «оригинал → вымышленное». Принципы замены:
-- Все имена персонажей, названия планет, рас, технологий и ключевых понятий заменены на вымышленные, сохраняющие стиль и состав слова.
-- Учтены регистры, границы слов, множественное число.
-- Для генерации новых имён использовались комбинации слогов и элементы из `uuid` для уникальности.
+## 4. Контроль уникальности
+Выборочная проверка (на примере `knowledge_base/luke_skywalker.md`) показала, что тексты связны и не содержат оригинальных терминов Star Wars. LLM без контекста не знает этих сущностей.
 
-Примеры из `terms_map.json`:
-```json
-{
-  "Star Wars": "Celestial Chronicles",
-  "Darth Vader": "Xarn Velgor",
-  "Luke Skywalker": "Jax Solara",
-  "Leia Organa": "Mira Voss",
-  "Han Solo": "Kael Naro",
-  "Yoda": "Oron",
-  "Death Star": "Void Core",
-  "The Force": "Synth Flux",
-  "Tatooine": "Duneholm",
-  "Millennium Falcon": "Stellar Hawk",
-  "Jedi": "Aethel Wardens",
-  "Sith": "Umbrith",
-  "Lightsaber": "Photon Blade",
-  "Rebel Alliance": "Free Accord",
-  "Galactic Empire": "Dominion of Iron Will",
-  "Dagobah": "Murkfen",
-  "Coruscant": "Metropax",
-  "Wookiee": "Bralok",
-  "Droid": "Autom",
-  "Hyperspace": "Voidstream"
-}
-```
-
-Скрипт `apply_terms_map.py` проходится по всем `.md` файлам `raw_docs/`, выполняет замену с помощью регулярных выражений и сохраняет результат в `knowledge_base/`. Порядок замены: сначала самые длинные фразы (чтобы избежать частичных замен), затем одиночные слова.
-
-## 4. Проверка и результат
-- Прочитав полученные документы, убедился, что они сохранили внутреннюю логику и читаемость, но стали неузнаваемы как Star Wars.
-- Модель GPT-4, не имея доступа к индексу, на запрос «Кто такой Xarn Velgor?» отвечала, что не знает, подтверждая уникальность базы.
-- Итоговая папка `knowledge_base/` содержит 35 `.md` файл в подкатегориях: `characters`, `planets`, `technology`, `events`. Также корневой файл `terms_map.json`.
-
-## 5. Структура knowledge_base/
-```
-knowledge_base/
-├── characters/
-│ ├── xarn_velgor.md
-│ ├── jax_solara.md
-│ └── ...
-├── planets/
-│ ├── duneholm.md
-│ └── ...
-├── technology/
-│ ├── void_core.md
-│ └── ...
-├── events/
-│ ├── aethel_wardens.md
-│ └── ...
-└── terms_map.json
-```
-
-## 5. Использованные скрипты
-- `fetch_wikipedia.py`, `fetch_wikipedia_v2.py`, `fetch_remaining.py`, `check_raw_docs.py`, `fix_disambiguations.py` – загрузка и очистка страниц.
-- `apply_terms_map.py` – подстановка вымышленных терминов.
-
-Оба скрипта сохранены в корне проекта для повторяемости процесса.
+## 5. Итоговая структура
+- `raw_docs/` — 33 оригинальных статьи
+- `knowledge_base/` — 33 статьи с заменёнными терминами
+- `terms_map.json` — словарь замен
+- `apply_terms_map.py` — скрипт применения замен
