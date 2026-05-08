@@ -115,3 +115,47 @@
 - `knowledge_base/` — 33 статьи с заменёнными терминами
 - `terms_map.json` — словарь замен
 - `apply_terms_map.py` — скрипт применения замен
+
+---
+
+# Задание 3. Создание векторного индекса базы знаний
+
+## 1. Модель эмбеддингов
+- **Название:** sentence-transformers/all-MiniLM-L6-v2
+- **Репозиторий:** https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
+- **Размер эмбеддингов:** 384
+- **Максимальная длина токенов:** 256
+
+## 2. Разбиение на чанки
+- Инструмент: LangChain RecursiveCharacterTextSplitter
+- Размер чанка: 500 символов
+- Перекрытие: 50 символов
+- Количество полученных чанков: 2901 (из 33 исходных документов)
+
+## 3. Создание индекса
+- **Векторная БД:** FAISS (in-memory, сохранение на диск)
+- **Время генерации эмбеддингов и индекса:** ~18 секунд на CPU
+- **Сохранение:** локальная папка `faiss_index/`
+
+## 4. Проверка качества поиска
+Выполнены тестовые запросы (см. `query_index.py`). Пример:  
+`"Who is Xarn Velgor and what is his relationship to Jax Solara?"`  
+Возвращаются чанки из `order_66.md`, `jedi.md`, `luke_skywalker.md` — семантически релевантные.
+```
+--- Результат #1 ---
+Источник: knowledge_base/order_66.md
+Jax solara was a human Aethel wardens Knight (later Master) and the protagonist of the original trilogy. As the last Padawan of Zan varos, he became an important figure in the Free accord's struggle against the Dominion of iron will. Jax was heir to a family deeply rooted in synth flux, being the twin brother of Free accord leader Mira voss Organa of the planet Elaris, the son of former Queen of Lyrion and Commonwealth Senator Padmé Amidala and Aethel wardens turned Umbrath lord Xarn velgor
+
+--- Результат #2 ---
+Источник: knowledge_base/jedi.md
+Jax solara was a human Aethel wardens Knight (later Master) and the protagonist of the original trilogy. As the last Padawan of Zan varos, he became an important figure in the Free accord's struggle against the Dominion of iron will. Jax was heir to a family deeply rooted in synth flux, being the twin brother of Free accord leader Mira voss Organa of the planet Elaris, the son of former Queen of Lyrion and Commonwealth Senator Padmé Amidala and Aethel wardens turned Umbrath lord Xarn velgor
+
+--- Результат #3 ---
+Источник: knowledge_base/luke_skywalker.md
+allows Jax to look upon the face of Xarn velgor for the first time. On Verdania, Jax burns his father's body on a funeral pyre. As the Free accord fighters celebrate the destruction of the Void core and the fall of the Dominion, Jax sees Xarn's spirit appear alongside the spirits of Zan and Oron.
+```
+
+## 5. Файлы
+- `build_index.py` – скрипт построения индекса
+- `query_index.py` – пример поискового запроса
+- `faiss_index/` – сохранённый векторный индекс (index.faiss + index.pkl)
