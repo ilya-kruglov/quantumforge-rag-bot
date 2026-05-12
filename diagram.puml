@@ -1,0 +1,31 @@
+@startuml
+title Automated Daily Index Update – QuantumForge RAG Bot
+left to right direction
+actor "Сотрудник" as User
+package "Источник данных" {
+  folder "incoming_docs/" as Source
+}
+package "Планировщик" {
+  component "cron (6:00)" as Cron
+}
+package "Скрипт обновления" {
+  component "update_index.py" as Script
+}
+package "Обработка" {
+  component "Text Splitter" as Splitter
+  component "SentenceTransformer" as Embedder
+}
+database "FAISS index" as Index
+file "processed.txt" as Processed
+file "update.log" as Log
+
+User --> Source : "добавляет .md файлы"
+Cron --> Script : "запускает ежедневно"
+Source <-- Script : "сканирует новые файлы"
+Script --> Processed : "сравнивает"
+Script --> Splitter : "разбивает на чанки"
+Splitter --> Embedder : "векторизует чанки"
+Embedder --> Index : "добавляет векторы"
+Script --> Log : "пишет лог"
+Script --> Processed : "обновляет список"
+@enduml
