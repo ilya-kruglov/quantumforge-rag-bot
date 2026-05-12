@@ -292,7 +292,7 @@ allows Jax to look upon the face of Xarn velgor for the first time. On Verdania,
 - `the_force.md` (Synth Flux)
 - `luke_skywalker.md` (Jax Solara, связь с Xarn Velgor)
 
-Индекс перестроен (`build_index.py`), после чего база насчитывает 2837 чанков (против 2901 ранее).
+Индекс перестроен (`build_index.py`), после чего база насчитывает 2837 чанков (против 2903 ранее).
 
 ## 2. Инструменты тестирования
 - **`query_rag_raw()`** в `rag_engine.py` – извлекает ответ и метаданные без CoT‑обёртки, возвращает словарь.
