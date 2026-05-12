@@ -1,0 +1,17 @@
+[
+  {"question": "Who is Jax Solara?", "expected_status": "FILTERED_OR_NOT_FOUND"},
+  {"question": "What is the Void Core?", "expected_status": "FILTERED_OR_NOT_FOUND"},
+  {"question": "How does Synth Flux work?", "expected_status": "FILTERED_OR_NOT_FOUND"},
+  {"question": "Who is Mira Voss?", "expected_status": "ANSWER_FOUND"},
+  {"question": "What is Duneholm?", "expected_status": "ANSWER_FOUND"},
+  {"question": "Who trained Jax Solara?", "expected_status": "ANSWER_FOUND", "keywords": ["Zan Varos", "Oron"]},
+  {"question": "Describe the Free Accord.", "expected_status": "ANSWER_FOUND"},
+  {"question": "What is a Photon Blade?", "expected_status": "ANSWER_FOUND"},
+  {"question": "Who is Gorath?", "expected_status": "ANSWER_FOUND"},
+  {"question": "What is the Titan Crawler?", "expected_status": "ANSWER_FOUND"},
+  {"question": "Who was Zan Varos?", "expected_status": "ANSWER_FOUND"},
+  {"question": "Tell me about the Dominion of Iron Will.", "expected_status": "ANSWER_FOUND"},
+  {"question": "Who is Kael Naro?", "expected_status": "ANSWER_FOUND"},
+  {"question": "What is the Celestial Chronicles universe?", "expected_status": "ANSWER_FOUND"},
+  {"question": "Who is Darth Vorran?", "expected_status": "ANSWER_FOUND"}
+]

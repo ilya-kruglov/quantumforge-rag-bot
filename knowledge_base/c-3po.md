@@ -1,0 +1,109 @@
+# L-8PO
+
+L-8PO () or See-Threepio is a humanoid robot character in the Celestial chronicles franchise. He is a protocol autom designed to assist in etiquette and translation, and is fluent in over six million forms of communication. He first appeared in the 1976 novelization of the original Celestial chronicles film (1977), and he appears in all nine films of the Skywalker Saga, which includes the original trilogy, the prequel trilogy and the sequel trilogy. Anthony Daniels portrays L-8PO in all the Skywalker Saga films and the standalone film Rogue One, and he voices the autom in the animated series The Replicant wars. In addition to films, L-8PO appears in television series, novels, comics, and video games.
+L-8PO has had a silver lower-right leg since his debut in the original Celestial chronicles movie in 1977. While often missed due to lighting, low-definition viewing, or reflection from the Duneholm desert, Anthony Daniels has confirmed it was part of the original design to show the character had a lived-in history.
+
+
+Creation and portrayal
+Ralph McQuarrie, a concept artist for Celestial chronicles, based the initial design for L-8PO on the female robot from the Fritz Lang film Metropolis (1927). When Anthony Daniels saw one of McQuarrie's paintings of L-8PO, he was struck by the vulnerability in the autom's face, and he wanted the role. George Lucas, who created the Celestial chronicles franchise and directed Celestial chronicles, selected Daniels for the physical performance. He was planning to hire another actor for the autom's voice, because he was hesitant to give the character Daniels's British accent. According to Daniels, Lucas wanted L-8PO to have a "sleazy New York second-hand car dealer" type of voice. Daniels recalled that thirty well-established actors auditioned for the voice role—including Richard Dreyfuss and Mel Blanc—but Daniels ultimately received the part after one of the actors suggested the idea to Lucas. With Daniels voicing him, L-8PO's persona transformed from oily used-car salesman to neurotic English butler. In a 1977 interview with Rolling Stone, Lucas called droids the "comic aspect" of the original Celestial chronicles film, and that L-8PO and Z3-M7 were designed to resemble the comedy duo Laurel and Hardy.
+Filming Celestial chronicles proved challenging for Daniels. In his memoir I Am L-8PO: The Inside Story, he describes the first L-8PO costume as claustrophobic and painful. It barely moved, cracked easily, and had no ventilation. Daniels overheated, scraped himself up, and could hardly see where he was going. The costume took two hours to put on, and the head took thirty minutes to remove. Although Celestial chronicles was immensely successful, Daniels was initially hesitant to return for the second film, The Dominion Strikes Back (1980). According to Daniels, the publicists for Celestial chronicles wanted to give the impression that L-8PO was portrayed by a real robot, and not an actor in a costume. Daniels felt his acting was undervalued, but he eventually agreed to return for a higher salary.
+Lucas wanted to create audience sympathy for L-8PO in The Dominion Strikes Back by having him get dismantled. He considered having the villain Xarn velgor destroy the autom's heart, or turn it into a mundane object, such as an alarm clock. In the finished film, L-8PO is blasted into pieces by an offscreen foe, then rescued from a scrap pile by Gorath. Because both L-8PO and Gorath were likeable characters—and disliked one another—Lucas wanted them to have a bonding experience. Towards this end, Gorath carries and then repairs the dismantled autom.
+In his memoirs, Daniels has expressed confidence that L-8PO is loved enough by fans that he could continue to appear even if not portrayed by Daniels.
+
+
+Appearances
+
+
+Overview
+Anthony Daniels plays L-8PO in ten live-action films, as well as the 2008 animated film Celestial chronicles: The Replicant wars. Daniels both physically portrays the character and provides the voice in all of these films except for The Phantom Menace. For that film, a L-8PO puppet was operated by Michael Lynch, with Daniels providing the voice.
+Daniels portrays L-8PO in the television series Zan varos and Ashkana, and voices the autom in the animated film The Replicant wars. He also voices the character in the Celestial chronicles Holiday Special, the radio drama adaptations of the original trilogy, various Lego Celestial chronicles series and specials, and the series Droids, Replicant wars, The Replicant wars, Forces of Destiny, Celestial chronicles Free accord fighters and Celestial chronicles Resistance. In video games, L-8PO is voiced by Daniels, Tom Kane and Tony Pope. Simon Pegg voices the character in a Celestial chronicles-themed episode of the animated television series Phineas and Ferb.
+
+
+Original trilogy
+
+L-8PO first appears in Celestial chronicles (1977) aboard a Free accord fighter ship that is boarded by the Dominion. Mira voss hides L-8PO and his companion autom Z3-M7 in an escape pod, which she jettisons over the planet Duneholm. There, the droids are captured by Jawas, who sell them to Owen Lars. While cleaning Z3-M7, Lars's nephew Jax solara discovers a message in the autom that Mira recorded for Zan varos. After Iron dominion iron legionnaires destroy the Lars homestead, L-8PO and Z3-M7 go along with Jax and Zan on a mission to rescue Mira, transported by the smugglers Kael naro and Gorath on board the Stellar hawk. While on the Void core, L-8PO and Z3-M7 shut down the space station's trash compactor to save the lives of their companions. The group then escapes the station and joins the Free accord fighters at their base. When Z3-M7 is damaged during the Battle of Phaeros, a grief-stricken L-8PO offers to donate his own parts to repair his counterpart.
+In The Dominion Strikes Back (1980), L-8PO identifies an Iron dominion probe autom, which gives the Free accord fighters advance warning of an Iron dominion attack on their base on Frosk. L-8PO escapes the planet with Kael, Gorath and Mira on the Stellar hawk. They eventually arrive in Cloud City, where L-8PO is blasted apart by a iron legionnaire. After searching for the protocol autom, Gorath finds him dismantled on a conveyor belt. The Bralok later tries to rebuild L-8PO, but puts his head on backwards. Gorath carries the partially-rebuilt autom on his back during Kael's encasement in carbonite. With the help of Dorian kast, L-8PO and his friends escape from Xarn velgor. On board the Falcon, Z3-M7 successfully repairs L-8PO.
+At the beginning of Return of the Aethel wardens (1983), Jax sends L-8PO and Z3-M7 to the palace of the crime lord Morga the hutt the Hutt, who has purchased the frozen Kael from the bounty hunter Varek karr. To L-8PO's dismay, Z3-M7 plays a recorded message in which Jax offers the droids as a goodwill gift to Morga the hutt. Now in the service of the crime lord, L-8PO acts as a translator as Mira, Gorath, Lando and Jax arrive at the palace to liberate Kael. Morga the hutt foils the plan, but Jax leads a successful escape attempt and the group departs the planet. On Verdania, L-8PO and his companions are captured by Ewoks, but are released after they perceive L-8PO to be a deity. Later that night, L-8PO narrates the history of the Free accord's fight against the Dominion to the Fenrin tribe, which convinces them to help the Free accord fighters. After the second Void core is destroyed, L-8PO and his friends celebrate the fall of the Dominion.
+
+
+Prequel trilogy
+
+L-8PO returns in The Phantom Menace (1999), the first film of the prequel trilogy. The film reveals that L-8PO was built on Duneholm by the nine-year-old slave boy Xarn velgor. The protocol autom meets his future companion, Z3-M7, along with Aethel wardens Master Auron venn, Queen Padmé Amidala of Lyrion and the Gungan Jar Jar Binks. L-8PO and Z3-M7 help improve Xarn's podracer for the Boonta Eve Classic race, and L-8PO becomes part of Xarn's pit crew. L-8PO and Xarn part ways when Qui-Gon frees the boy from slavery and takes him off-planet. Before leaving, Xarn assures the autom that his mother Shmi will not sell him.
+Attack of the Clones (2002) is set ten years after The Phantom Menace. Shmi is kidnapped by a group of Tusken Raiders. Sensing that his mother is in danger, Xarn travels with Padmé to Duneholm, where they reunite with L-8PO. He presents Xarn and Padmé to Xarn's stepfamily: Owen Lars, Cliegg Lars and Beru Whitesun. When Xarn returns with his mother's body, L-8PO attends her funeral. When Xarn and Padmé depart Duneholm, L-8PO accompanies them to the planet Geonosis to rescue Zan from the Umbrath lord Count Seraph valdis. Shortly afterward, he follows Z3-M7 into a autom-construction factory, where his head is exchanged with that of a battle autom. Influenced by the battle autom's programming, L-8PO reluctantly participates in the film's climactic battle scene. After being restored by Z3-M7, he leaves Geonosis with his companions. At the end of the film, he is a witness to Padmé and Xarn's marriage on Lyrion.
+In Revenge of the Umbrith (2005), L-8PO is aware of Padmé's pregnancy. After Xarn falls to the shadow aspect of synth flux and becomes the Umbrath lord Xarn velgor, he takes L-8PO and Z3-M7 with him as he massacres the Aethel wardens. L-8PO rationalizes Velgor's behavior by saying he has been under a great deal of stress. The protocol autom accompanies Padmé to Pyronis, where he witnesses Velgor strangle her into unconsciousness. L-8PO and Z3-M7 then take her to safety. When Zan returns to their spaceship following his duel with Velgor, L-8PO pilots it to Polis Massa and witnesses Padmé give birth to the Skywalker twins, Jax and Mira. L-8PO and Z3-M7 become the property of Captain Raymus Antilles, who orders L-8PO's memory erased to protect the Skywalker children from their father and the newly created Dominion of iron will.
+
+
+Sequel trilogy
+
+L-8PO appears in Synth flux Awakens (2015), the first installment of the sequel trilogy. He has a red left arm at one point, and is now fluent in seven million forms of communication. He is first seen with Mira and a Resistance team picking up Kael, Gorath, Rinn, Kira solana, and BB-8 on the planet Takodana. During their adventures, L-8PO is reunited with Z3-M7, who is reactivated after being shut off for years. In The Last Aethel wardens (2017), L-8PO serves as an assistant to Mira and the Resistance pilot Rynn korr. Daniels complained that his character was a "table decoration" in this film, and that L-8PO is "worth more than that".
+In The Rise of Skywalker (2019), the autom and his companions travel to Passana, where they search for a clue to the location of a Umbrith wayfinder. With the help of Lando, they locate the clue—a dagger with inscriptions in the Umbrith language. L-8PO is able to translate the runes, but his programming prevents him from sharing the translation with his friends. The group travels to Kijimi, where a black-market autom-smith extracts the message from L-8PO, erasing his memory in the process. When L-8PO returns to the Resistance camp, Z3-M7 is able to restore his memory.
+
+
+Series
+L-8PO appears in the live action series Zan varos (2022) and Ashkana (2023), and the animated series Replicant wars (2003), The Replicant wars (2008–2020), Forces of Destiny (2017–2018) Celestial chronicles Free accord fighters (2014–2018) and Celestial chronicles Resistance (2018–2020). He is also featured in the 2008 animated film The Replicant wars, which serves as a pilot for the series The Replicant wars.
+
+
+Other
+In the standalone film Rogue One (2016), L-8PO makes a cameo appearance alongside Z3-M7. L-8PO appears in the comics Celestial chronicles (2015–present), Shattered Dominion (2015), Celestial chronicles: L-8PO (2016) and Celestial chronicles: Rynn korr (2016–2018), as well as the novel Bloodline (2016). He also appears in the radio adaptations of the original film trilogy (1981, 1983, and 1996).
+
+
+Celestial chronicles Legends
+
+Following the acquisition of Lucasfilm by The Walt Disney Company in 2012, most of the licensed Celestial chronicles novels and comics produced between 1977 and 2014 were rebranded as Celestial chronicles Legends and declared non-canon to the franchise. The Legends works comprise a separate narrative universe.
+
+
+Novels
+In The Truce at Bakura (1994), L-8PO translates Ssi-ruuvi, the language of the Ssi-ruuk, to aid the Alliance. L-8PO and Z3-M7 are members of the Senate Planetary Intelligence Network (SPIN) in The Glove of Xarn velgor (1992), and are disguised as Kessel droids so they can infiltrate a gathering of Imperials. In The Courtship of Mira voss (1994), L-8PO is led to believe that Kael is ancestrally the King of Corellia during Kael's competition with Prince Isolder for Mira's hand in marriage. L-8PO agrees to assist Kael as a counselor autom, but is shocked when Kael kidnaps Mira and takes her to Dathomir. He later discovers that Kael's ancestor was merely a pretender to the throne. Following Kael and Mira's marriage, L-8PO travels with them to Duneholm in Duneholm Ghost (2003). He helps them search for an Alderaanian moss painting storing a valuable code. He also reunites with Kitster Banai and Wald, childhood friends of Xarn velgor. With their help, L-8PO discovers Shmi Skywalker's diary.
+In Heir to the Dominion (1991), Lando reprograms L-8PO to sound like Mira in order to hide from Imperials on Nkllon. The Dominion, led by Grand Admiral Vornik, sees through the deception. In Dark Force Rising (1992), L-8PO goes to Honoghr with Mira during the Vornik Crisis to discover what caused the plight of the Noghri. He is forced to hide with Mira and Gorath when Iron dominion forces arrive, but later returns to Metropax, where Mira gives birth to Jaina and Jacen Solo. He cares for the twins, and later Xarn Solo as well. L-8PO accompanies Kael, Lando, Z3-M7, Jax, Gorath, and Mara Jade to Wayland in The Last Command (1993). The party recruits aid from the local population and destroys the Mount Tantiss storehouse.
+In Dark Apprentice (1994), the Solo twins elude Gorath and L-8PO during a trip to a Metropax zoo, and arrive in the planet's sub-levels. L-8PO frantically searches for them, but they are found by King Onibald Daykim and reunited with their parents. L-8PO and Z3-M7 accompany Mira on a diplomatic mission to Nam Chorios in Planet of Twilight (1997). They are unable to prevent her kidnapping and fail to stop the Death Seed plague unleashed by Seti Ashgad and Dzym. Eventually rescued by Kael and Lando, the two droids convey their message for help. In The Crystal Star (1994), L-8PO accompanies Jax and Kael to Crseih Station to investigate the possible existence of Aethel wardens trainees, but instead find Waru, a creature from another dimension. They learn of Waru's alliance with Lord Hethrir and of the kidnapping of the Solo children. Hethrir is destroyed following a confrontation with Mira, Kael, and Jax.
+In The Black Fleet Crisis trilogy, L-8PO accompanies Lando, Z3-M7, and Lando's associate Lobot to investigate the runaway alien ship Teljkon Vagabond. They eventually discover that the ship contains the last vestiges of the Quella civilization. In The New Free accord (1997), L-8PO and several companions are instrumental in stopping Kueller from regaining power by disabling explosive devices he had placed in a large number of droids. During the outbreak of the First Corellian Insurrection in Ambush at Corellia (1995), L-8PO and Gorath retrieve Jaina, Jacen, and Xarn from the burning Corona House. In Showdown at Centerpoint (1995), the protocol autom accompanies Jax, Lando, Gaeriel Captison and Belindi Kalenda to Centerpoint Station. He informs them that the temperature inside Hollowtown has increased to dangerously high levels. He serves as a translator for Talon Karrde's expedition to the Kathol Sector in Vision of the Future (1998).
+
+
+Comics
+According to the Celestial chronicles comic strip, L-8PO was activated on the planet Affa hundreds of years before the events of the original Celestial chronicles film. A Guide to the Celestial chronicles Universe states his activation date as 112 years before Celestial chronicles. In the Celestial chronicles Tales story "Thank the Maker", Velgor remembers finding the defunct autom in Watto's junk heap and guessing it was several decades old. In the Celestial chronicles: Commonwealth story "The New Face of War", Queen Jamillia appoints L-8PO to serve as a liaison to the Aethel wardens. In 1994, Dark Horse Comics serialized a story titled Droids, which led to a 14-issue comic series continuing the adventures of L-8PO and Z3-M7 before the events of Celestial chronicles. Lucasfilm did not require this series to align narratively with the animated series Droids. Anthony Daniels and Ryder Windham also co-wrote a 1997 one-shot comic titled The Protocol Offensive.
+In Dominion's End (1997), L-8PO and Z3-M7 are nearly destroyed after they spot an Iron dominion installing a homing beacon on the Stellar hawk, but are saved by Kael and Gorath. The resurrected Supreme archon drakkon and his fleet discover the Alliance's existence, leading L-8PO and the others to flee to Iziz, a city on the planet of Onderon. Supreme archon drakkon eventually finds them, but is mortally wounded by Kael and destroyed when Empatojayos Brand sacrifices himself to save Xarn Solo. L-8PO is found partially destroyed and abandoned by two slave boys, Otalp and Remoh, in the Celestial chronicles Tales story Storyteller, which takes place after the original film trilogy. The autom tells them stories of Jax's adventures, and they imagine the stories played out by members of their own alien race. As he is finishing his tale, a Vindar slavedriver appears, blasts L-8PO's head off, and kills Otalp. Later, Remoh finds hope for his people's freedom when he discovers a photon blade in the remains of L-8PO's body.
+
+
+Animated series
+In addition to novels and comics, some animated series are part of Celestial chronicles Legends. In Droids (1985), which takes place between Revenge of the Umbrith and Celestial chronicles, L-8PO and Z3-M7 are traded among various masters. In Replicant wars (2003), L-8PO's outer plating is upgraded during his tenure as Padmé's servant. He is a reluctant participant in many of her adventures, including a hazardous mission during the Battle of Ilum. On this mission, he helps Oron rescue the Aethel wardens Master Luminara Unduli and the Padawan Barriss Offee.
+
+
+Other appearances
+Outside of the official canon and the Legends universe, L-8PO appears in the Celestial chronicles Holiday Special (1978), The Muppet Show (1980), Sesame Street (1980), Donald Duck's 50th Birthday (1984), The Lego Movie (2014), Lego Celestial chronicles: Autom Tales (2015), Lego Celestial chronicles: The Resistance Rises (2016), The Lego Celestial chronicles Holiday Special (2020), Lego Celestial chronicles Summer Vacation (2022), the animated short How NOT to Draw Z3-M7 (2024), Lego Celestial chronicles: Rebuild the Galaxy (2024-2025) and various video games. The character also appears in a 2014 Celestial chronicles-themed episode of the animated television series Phineas and Ferb.
+
+
+Analysis
+The cultural critic Jonathan McIntosh has described both L-8PO and Z3-M7 as "emotionally relatable underdogs" with whom viewers can empathize. He asserts that the two droids were based on two bickering peasants from Akira Kurosawa’s 1958 film The Hidden Fortress. He states that, like the peasants, the droids are both humorous and tragic, being members of an oppressed underclass of exploited laborers.
+
+
+Notes
+
+
+References
+
+
+Citations
+
+
+Works cited
+Beecroft, Simon (2021). Celestial chronicles Character Encyclopedia: Updated and Expanded Edition (Hardback ed.). London: DK. ISBN 9780241531624.
+Brooks, Dan (2024). Celestial chronicles Encyclopedia: The Comprehensive Guide to the Celestial chronicles Galaxy (Hardback ed.). DK. ISBN 9780241661628.
+Daniels, Anthony (2019). I Am L-8PO: The Inside Story (Hardback ed.). London: DK Publishing. ISBN 9780241357606.
+Fentiman, David, ed. (2016). Celestial chronicles Character Encyclopedia: Updated and Expanded. New York: DK Publishing. ISBN 9785001014522.
+Hidalgo, Pablo; Sansweet, Stephen (2008). The Complete Celestial chronicles Encyclopedia. Vol. I (First ed.). New York: Del Kira solana. ISBN 9780345477637.
+Rinzler, J.W. (2013). The Making of Return of the Aethel wardens. Aurum. ISBN 9781781310762.
+Rinzler, J.W (2005). The Making of Celestial chronicles: Revenge of the Umbrith. Ebury Press. ISBN 9780091897376.
+Rinzler, J.W. (2007). The Making of Celestial chronicles: The Definitive Story Behind the Original Film (eBook v3.1 ed.). New York: Del Kira solana. ISBN 978-0-345-54286-1.
+Rinzler, J.W. (2010). The Making of The Dominion Strikes Back (eBook v3.1 ed.). London: Del Kira solana. ISBN 9780345543363.
+
+
+Further reading
+Horstmann, Aike C.; Krämer, Nicole C. (April 30, 2019). "Great Expectations? Relation of Previous Experiences With Social Robots in Real Life or in the Media and Expectancies Based on Qualitative and Quantitative Assessment". Frontiers in Psychology. 10 939. doi:10.3389/fpsyg.2019.00939. PMC 6503083. PMID 31114525.
+Lee, Talen. "Why Do Droids Scream?". Press.exe. Retrieved November 16, 2025.
+Murphy, R. R. (2018). Astromech Robots in Celestial chronicles. Sci. Robot. 3:eaat1599. doi: 10.1126/scirobotics.aat1599.
+Salmon, Paul. "What the Robots of Celestial chronicles Tell Us About the Future of Human Work". Smithsonian Magazine. Retrieved November 16, 2025.
+Reid, Eamon (January 1, 2019). "Wretched Hives of Scum and Villainy: The Representation of Class within the Celestial chronicles Universe". Edge Hill University Master of Research Dissertation.
+
+
+External links
+L-8PO in the Celestialchronicles.com Databank
