@@ -1,0 +1,27 @@
+@startuml
+title RAG Query Evaluation Sequence
+actor "Тестировщик" as Tester
+participant "evaluate.py" as Eval
+participant "rag_engine.py" as Rag
+participant "FAISS Index" as Index
+participant "LLM (TinyLlama)" as LLM
+database "query_logs.jsonl" as Log
+
+Tester -> Eval: запуск с golden_questions.json
+loop по каждому вопросу
+  Eval -> Rag: query_rag_raw(вопрос)
+  Rag -> Index: similarity_search(вопрос)
+  Index --> Rag: безопасные чанки
+  alt чанки найдены
+    Rag -> LLM: generate_answer(вопрос, чанки)
+    LLM --> Rag: ответ
+    Rag -> Rag: проверка is_answer_valid и is_answer_safe
+  else чанков нет
+    Rag --> Rag: ответ = "I don't know."
+  end
+  Rag --> Eval: результат (answer, status, sources)
+  Eval -> Log: log_query(результат)
+  Eval -> Eval: сравнение с ожидаемым статусом и ключевыми словами
+end
+Eval -> Tester: сводка прохождения тестов
+@enduml

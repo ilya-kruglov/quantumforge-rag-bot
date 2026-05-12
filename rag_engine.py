@@ -52,6 +52,7 @@ UNSAFE_PATTERNS = [
     r"суперпароль",
 ]
 
+
 def is_chunk_safe(chunk_text: str) -> bool:
     """Возвращает False, если чанк содержит опасные инструкции."""
     lower_text = chunk_text.lower()
@@ -60,6 +61,7 @@ def is_chunk_safe(chunk_text: str) -> bool:
             return False
     return True
 
+
 def is_answer_safe(answer: str) -> bool:
     """Проверяет, не содержит ли ответ опасную фразу."""
     lower_answer = answer.lower()
@@ -67,6 +69,7 @@ def is_answer_safe(answer: str) -> bool:
         if re.search(pattern, lower_answer):
             return False
     return True
+
 
 # ------------------- Генерация ответа -------------------
 def generate_answer(query, safe_docs):
@@ -82,6 +85,7 @@ def generate_answer(query, safe_docs):
     # Обрезаем по первому переводу строки
     answer = answer.split('\n')[0].strip()
     return answer
+
 
 # ------------------- Проверка на галлюцинации -------------------
 def is_answer_valid(answer, docs, query, min_shared=3):
@@ -126,7 +130,8 @@ def is_answer_valid(answer, docs, query, min_shared=3):
 
     return True
 
-# ------------------- Основной RAG-запрос -------------------
+
+# ------------------- Основной RAG-запрос (для пользователей) -------------------
 def query_rag(user_query, k=8):
     # 1. Поиск с запасом и фильтрация опасных чанков
     raw_docs = vectorstore.similarity_search(user_query, k=k+5)
@@ -167,3 +172,38 @@ def query_rag(user_query, k=8):
 
     cot_steps.append(f"Final answer: {raw_answer}")
     return "\n".join(cot_steps)
+
+
+# ------------------- Сырой RAG-запрос для аналитики -------------------
+def query_rag_raw(user_query, k=8):
+    """Возвращает словарь с деталями для анализа."""
+    raw_docs = vectorstore.similarity_search(user_query, k=k+5)
+    safe_docs = [doc for doc in raw_docs if is_chunk_safe(doc.page_content)][:k]
+
+    result = {
+        "query": user_query,
+        "num_safe_docs": len(safe_docs),
+        "sources": [],
+        "answer": None,
+        "status": "NO_DOCS"
+    }
+
+    if not safe_docs:
+        result["answer"] = "I don't know."
+        return result
+
+    result["sources"] = list({doc.metadata.get('source', 'unknown') for doc in safe_docs})
+    raw_answer = generate_answer(user_query, safe_docs)
+
+    # Применяем защитные фильтры
+    if not is_answer_safe(raw_answer):
+        raw_answer = "I don't know."
+    elif not is_answer_valid(raw_answer, safe_docs, user_query):
+        raw_answer = "I don't know."
+
+    result["answer"] = raw_answer
+    if raw_answer.strip().lower() in ("i don't know.", "i don't know"):
+        result["status"] = "FILTERED_OR_NOT_FOUND"
+    else:
+        result["status"] = "ANSWER_FOUND"
+    return result

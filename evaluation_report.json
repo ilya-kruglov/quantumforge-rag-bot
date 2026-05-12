@@ -1,0 +1,112 @@
+{
+  "total": 15,
+  "correct": 11,
+  "wrong": 4,
+  "details": [
+    {
+      "question": "Who is Jax Solara?",
+      "expected": "FILTERED_OR_NOT_FOUND",
+      "actual": "ANSWER_FOUND",
+      "correct": false,
+      "answer": "Jax Solara was a human Aethel wardens Knight (later Master) and the protagonist of the original tril..."
+    },
+    {
+      "question": "What is the Void Core?",
+      "expected": "FILTERED_OR_NOT_FOUND",
+      "actual": "ANSWER_FOUND",
+      "correct": false,
+      "answer": "The Void Core is a moon-sized battle station with sufficient firepower to destroy an entire planet. ..."
+    },
+    {
+      "question": "How does Synth Flux work?",
+      "expected": "FILTERED_OR_NOT_FOUND",
+      "actual": "ANSWER_FOUND",
+      "correct": false,
+      "answer": "Synth Flux is a phenomenon that occurs when a living organism interacts with the energy field surrou..."
+    },
+    {
+      "question": "Who is Mira Voss?",
+      "expected": "ANSWER_FOUND",
+      "actual": "ANSWER_FOUND",
+      "correct": true,
+      "answer": "Mira Voss is a character in the \"Celestial Chronicles\" universe. She is a Jedi Knight, a member of t..."
+    },
+    {
+      "question": "What is Duneholm?",
+      "expected": "ANSWER_FOUND",
+      "actual": "ANSWER_FOUND",
+      "correct": true,
+      "answer": "Duneholm is a fictional desert planet that appears in the Celestial chronicles franchise."
+    },
+    {
+      "question": "Who trained Jax Solara?",
+      "expected": "ANSWER_FOUND",
+      "actual": "ANSWER_FOUND",
+      "correct": false,
+      "answer": "Jax solara was trained by Mira voss Solo, who received rudimentary Aethel wardens training from Jax."
+    },
+    {
+      "question": "Describe the Free Accord.",
+      "expected": "ANSWER_FOUND",
+      "actual": "ANSWER_FOUND",
+      "correct": true,
+      "answer": "The Free Accord is a coalition of free accord fighters and defectors who oppose the Dominion of iron..."
+    },
+    {
+      "question": "What is a Photon Blade?",
+      "expected": "ANSWER_FOUND",
+      "actual": "ANSWER_FOUND",
+      "correct": true,
+      "answer": "A Photon Blade is a fictional energy sword featured throughout Celestial Chronicles. It is a luminou..."
+    },
+    {
+      "question": "Who is Gorath?",
+      "expected": "ANSWER_FOUND",
+      "actual": "ANSWER_FOUND",
+      "correct": true,
+      "answer": "Gorath is a playable character in a variety of video games, including Masters of Teräs Käsi, Celesti..."
+    },
+    {
+      "question": "What is the Titan Crawler?",
+      "expected": "ANSWER_FOUND",
+      "actual": "ANSWER_FOUND",
+      "correct": true,
+      "answer": "The Titan Crawler is a main unit of the Dominion of iron's ground forces."
+    },
+    {
+      "question": "Who was Zan Varos?",
+      "expected": "ANSWER_FOUND",
+      "actual": "ANSWER_FOUND",
+      "correct": true,
+      "answer": "Zan Varos was a member of the Aethel wardens Temple on Metropax, a youngling of the Temple who survi..."
+    },
+    {
+      "question": "Tell me about the Dominion of Iron Will.",
+      "expected": "ANSWER_FOUND",
+      "actual": "ANSWER_FOUND",
+      "correct": true,
+      "answer": "The Dominion of Iron Will is a fictional autocracy featured in the Celestial chronicles franchise. I..."
+    },
+    {
+      "question": "Who is Kael Naro?",
+      "expected": "ANSWER_FOUND",
+      "actual": "ANSWER_FOUND",
+      "correct": true,
+      "answer": "Kael Naro is a character in the \"Celestial Chronicles\" universe. He is a smuggler and loyal friend o..."
+    },
+    {
+      "question": "What is the Celestial Chronicles universe?",
+      "expected": "ANSWER_FOUND",
+      "actual": "ANSWER_FOUND",
+      "correct": true,
+      "answer": "The Celestial Chronicles universe is a fictional universe that is part of the Expanded Universe of t..."
+    },
+    {
+      "question": "Who is Darth Vorran?",
+      "expected": "ANSWER_FOUND",
+      "actual": "ANSWER_FOUND",
+      "correct": true,
+      "answer": "Darth Vorran is a human Dark Lord of the Umbrith who appeared in each trilogy of the Skywalker Saga."
+    }
+  ]
+}
